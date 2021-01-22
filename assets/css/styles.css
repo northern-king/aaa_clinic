@@ -1,5 +1,5 @@
 /* GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
 
 /* VARIABLES CSS */
 :root {
@@ -230,8 +230,9 @@ img {
 
 .home__title span {
   color: #2a3b47;
-  font-size: 36px;
+  font-size: 37px;
   line-height: 48px;
+  font-family: "Marck Script", cursive;
 }
 
 .home__scroll {
@@ -247,9 +248,9 @@ img {
 
 .home__img {
   position: absolute;
-  right: 0;
+  right: 3px;
   bottom: 0;
-  width: 230px;
+  width: 280px;
 }
 
 .btn-menu {
@@ -537,8 +538,8 @@ img {
   }
 
   .home__img {
-    width: 21.5rem;
-    right: 10%;
+    width: 29.5rem;
+    right: 11%;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
